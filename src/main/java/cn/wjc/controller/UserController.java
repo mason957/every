@@ -14,6 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
 
+    /**
+     * 测试JSON数据
+     * @return 对象JSON
+     */
     @GetMapping
     public User getUser(){
         return User.builder()
